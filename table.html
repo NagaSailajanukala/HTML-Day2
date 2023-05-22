@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Table Without Border</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl NO</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>ABC</td>
+                <td>Clerk</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>DEF</td>
+                <td>Cashier</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>GHI</td>
+                <td>Accoutant</td>
+                <td>30000</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Table With outer Border with Frame Tag</h2>
+    <table frame="box">
+        <thead>
+            <tr>
+                <th>Sl NO</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>ABC</td>
+                <td>Clerk</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>DEF</td>
+                <td>Cashier</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>GHI</td>
+                <td>Accoutant</td>
+                <td>30000</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Table With Border by style TAG</h2>
+    <table style="border:3px solid purple;border-collapse:collapse">
+        <thead>
+            <tr style="border:3px solid purple;border-collapse:collapse">
+                <th style="border:1px solid purple;border-collapse:collapse">Sl NO</th>
+                <th style="border:1px solid purple;border-collapse:collapse">Name</th>
+                <th style="border:1px solid purple;border-collapse:collapse">Designation</th>
+                <th style="border:1px solid purple;border-collapse:collapse">Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="border:1px solid purple;border-collapse:collapse">
+                <td style="border:1px solid purple;border-collapse:collapse">001</td>
+                <td style="border:1px solid purple;border-collapse:collapse">ABC</td>
+                <td style="border:1px solid purple;border-collapse:collapse">Clerk</td>
+                <td style="border:1px solid purple;border-collapse:collapse" >10000</td>
+            </tr>
+            <tr style="border:1px solid purple;border-collapse:collapse">
+                <td style="border:1px solid purple;border-collapse:collapse">002</td>
+                <td style="border:1px solid purple;border-collapse:collapse">DEF</td>
+                <td style="border:1px solid purple;border-collapse:collapse">Cashier</td>
+                <td style="border:1px solid purple;border-collapse:collapse">20000</td>
+            </tr>
+            <tr style="border:1px solid purple;border-collapse:collapse">
+                <td style="border:1px solid purple;border-collapse:collapse">003</td>
+                <td style="border:1px solid purple;border-collapse:collapse">GHI</td>
+                <td style="border:1px solid purple;border-collapse:collapse">Accoutant</td>
+                <td style="border:1px solid purple;border-collapse:collapse">30000</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3> ColSpan Example</h3>
+    <table style="border:1px solid black;border-collapse:collapse;">
+        <thead>
+            <tr style="border:1px solid black;border-collapse:collapse;">
+            <th style="border:1px solid black;border-collapse:collapse;">Name</th>
+            <th style="border:1px solid black;border-collapse:collapse;">city</th>
+            <th colspan="2" style="border:1px solid black;border-collapse:collapse;">Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="border:1px solid black;border-collapse:collapse;">
+                <td style="border:1px solid black;border-collapse:collapse;">ABC</td>
+                <td style="border:1px solid black;border-collapse:collapse;">Guntur</td>
+                <td style="border:1px solid black;border-collapse:collapse;">0863</td>
+                <td style="border:1px solid black;border-collapse:collapse;">2290484</td>
+            </tr>
+            <tr>
+                <td style="border:1px solid black; border-collapse:collapse;">DEF</td>
+                <td style="border:1px solid black; border-collapse:collapse;">VJY</td>
+                <td style="border:1px solid black; border-collapse:collapse;">0866</td>
+                <td style="border:1px solid black; border-collapse:collapse;">123456</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Rowspan Example</h3>
+    <table>
+        <thead>
+            <tr>
+                <th style="border:1px solid black;border-collapse:collapse;">Name</th>
+                <th style="border:1px solid black;border-collapse:collapse;">Eno</th>
+                <th style="border:1px solid black;border-collapse:collapse;">Salary</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="border:1px solid black;border-collapse:collapse;">ABCD</td>
+                <td style="border:1px solid black;border-collapse:collapse;">1234</td>
+                <td style="border:1px solid black;border-collapse:collapse;">10000</td>
+            </tr>
+            <tr>
+                <td style="border:1px solid black;border-collapse:collapse;">EFGH</td>
+                <td style="border:1px solid black;border-collapse:collapse;">5678</td>
+                <td style="border:1px solid black;border-collapse:collapse;">20000</td>
+            </tr>
+            <tr>
+                <td style="border:1px solid black;border-collapse:collapse;" rowspan="2">Total Salary</td>
+                <td style="border:1px solid black;border-collapse:collapse">30000</td>
+            </tr>
+            
+</tbody>       
+    </table>
+</body>
+</html>
